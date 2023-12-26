@@ -4,12 +4,23 @@
     box-sizing: border-box;
  }
  .b{
-    background-color: greenyellow;
+    background-color: coral;
+    position: relative;
+    top: 55px;
+    padding-top: 20px;
+    height: 100dvh;
+    width: 100%;
  }
  
  
  
- .big{
-    
-    text-align: center;
+ .first{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ .join{
+   text-align: center;
+   padding: 10px;
  }
